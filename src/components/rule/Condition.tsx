@@ -11,7 +11,9 @@ export const Condition = () => {
         <LogicalOperators />
         <CPT />
         <Modifier />
-        <Button danger style={{width: '100px', height: '30px', display: 'block'}} type="primary" icon={<MinusOutlined twoToneColor='red' />} />
+        <Button danger type='dashed'>
+          <MinusOutlined />
+        </Button>
      </div>
     </>
   )

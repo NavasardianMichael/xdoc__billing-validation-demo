@@ -2,7 +2,7 @@
   "name": "xdoc__billing-validation-demo",
   "private": true,
   "homepage": "https://NavasardianMichael.github.io/xdoc__billing-validation-demo",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "type": "module",
   "scripts": {
     "dev": "vite",

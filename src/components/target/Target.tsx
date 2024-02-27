@@ -7,9 +7,9 @@ export const Target = () => {
   return (
     <>
       <div className='wrapper'>
-        <CPT />
         <PayerType />
         <PayerName />
+        <CPT />
      </div>
     </>
   )
