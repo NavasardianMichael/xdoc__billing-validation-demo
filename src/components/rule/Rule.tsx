@@ -1,5 +1,5 @@
 import { PlusOutlined } from '@ant-design/icons'
-import { Button, Divider, Typography } from 'antd'
+import { Button } from 'antd'
 import { Condition } from './Condition'
 import { ConditionCompositor } from './ConditionCompositor'
 
