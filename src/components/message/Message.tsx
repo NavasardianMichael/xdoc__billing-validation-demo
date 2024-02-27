@@ -3,7 +3,7 @@ import { Input, Tooltip, Typography } from 'antd';
 import React from 'react';
 
 export const Message: React.FC = () => {
-  const str = "One can has access to the current validation target and rule using it in brackets (e.g. {target} has the code {rule:1:1}, but it shouldn't have)."
+  const str = "One can has access to the current validation target and rule using it in brackets (e.g. {target} has the code {rule:1:1}, but it shouldn't have.)"
     return (
       <>
         <InfoCircleOutlined style={{ color: 'rgba(0,0,0,.45)' }} />
