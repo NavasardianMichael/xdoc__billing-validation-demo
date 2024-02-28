@@ -17,12 +17,14 @@ export const Message: React.FC = () => {
 
   return (
     <>
-      <InfoCircleOutlined style={{ color: "#1677ff" }} />
-      <Typography.Paragraph
-        style={{ display: "inline-block", marginLeft: ".75rem", marginBottom: '1rem', marginTop: '0' }}
-      >
-        {str}
-      </Typography.Paragraph>
+      <div>
+        <InfoCircleOutlined style={{ color: "#1677ff" }} />
+        <Typography.Paragraph
+          style={{ display: "inline-block", marginLeft: ".75rem", marginBottom: '1rem', marginTop: '0' }}
+        >
+          {str}
+        </Typography.Paragraph>
+      </div>
       <Mentions
         style={{ width: 700 }}
         rows={6}
