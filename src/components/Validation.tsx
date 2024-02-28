@@ -1,20 +1,20 @@
-import React from 'react';
-import { Tabs } from 'antd';
 import type { TabsProps } from 'antd';
-import { Target } from './target/Target';
-import { Rule } from './rule/Rule';
+import { Tabs } from 'antd';
+import React from 'react';
 import { Message } from './message/Message';
+import { TargetsList } from './targets/List';
+import { RulesList } from './rules/List';
 
 const items: TabsProps['items'] = [
   {
     key: '1',
     label: 'Target',
-    children: <Target />,
+    children: <TargetsList />,
   },
   {
     key: '2',
     label: 'Rule',
-    children: <Rule />,
+    children: <RulesList />,
   },
   {
     key: '3',
@@ -30,6 +30,6 @@ export const Validation: React.FC = () => {
     };
 
     return (
-        <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
+      <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
     )
 };

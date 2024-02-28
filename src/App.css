@@ -8,10 +8,21 @@
     display: flex;
     align-items: end;
     gap: .75rem;
-    &>div {
+    & > div {
       flex-basis: 100%;
+      
+      & > h5 {
+        margin-top: 0 !important;
+        font-size: .9rem !important;
+        font-weight: 400 !important;
+      }
     }
+
   }
+}
+
+.ant-collapse-header {
+  align-items: center !important;
 }
 
 /* .logo {

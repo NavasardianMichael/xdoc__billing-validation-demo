@@ -1,6 +1,6 @@
 import { Select, SelectProps, Space, Typography } from 'antd'
 
-export const Modifier = () => {
+export const PayerType = () => {
     const options: SelectProps['options'] = [
         {
             label: 'Option 1',
@@ -26,11 +26,12 @@ export const Modifier = () => {
 
   return (
     <div>
-        <Typography.Title level={5}>Modifier(s)</Typography.Title>
+        <Typography.Title level={5}>Payer Type(s)</Typography.Title>
         <Select
             mode="multiple"
+            filterOption={false}
             style={{ width: '100%' }}
-            placeholder="Select Modifier(s)"
+            placeholder="Select Payer Type(s)"
             defaultValue={[]}
             onChange={handleChange}
             optionLabelProp="label"

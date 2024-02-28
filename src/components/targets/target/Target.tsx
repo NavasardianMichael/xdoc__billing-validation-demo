@@ -1,3 +1,4 @@
+import { Assigner } from './Assigner'
 import { CPT } from './CPT'
 import { PayerName } from './PayerName'
 import { PayerType } from './PayerType'
@@ -10,6 +11,7 @@ export const Target = () => {
         <PayerType />
         <PayerName />
         <CPT />
+        <Assigner />
      </div>
     </>
   )
